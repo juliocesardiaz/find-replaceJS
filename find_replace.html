@@ -1,0 +1,31 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+
+  <title>Find and Replace</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter your phrase you would like to find and replace a word in: </h1>
+
+      <form id="word_order">
+        <div class="form-group">
+          <label for="word_order">Enter the phrase:</label>
+          <input class="form-control" type="text" id="phrase">
+          <label for="word_order">Find:</label>
+          <input class="form-control" type="text" id="find">
+          <label for="word_order">Replace:</label>
+          <input class="form-control" type="text" id="replace">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="result">
+        <p>Here is the word count for your phrase:<br></br><span class="answer"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
